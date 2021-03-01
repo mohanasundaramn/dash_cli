@@ -1,0 +1,24 @@
+name: dash_cli
+
+version: 0.0.1
+
+description: An opinionated CLI tool to generate flutter project.
+
+homepage: https://mohanasundaram.in
+
+documentation: https://mohanasundaram.in/dash/docs
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  args: ^1.6.0
+  usage: ^3.4.2
+  mason: ^0.0.1-dev.26
+  io: ^0.3.4
+
+dev_dependencies:
+  test: ^1.14.3
+
+executables:
+  dash:
